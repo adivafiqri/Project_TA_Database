@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e55a529810548eb9cc91e3cbd95b8cc" Name="Diagram1">
+        <EntityTypeShape EntityType="TAModel.tbl_dosen" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TAModel.tbl_jadwal" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TAModel.tbl_mhs" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TAModel.tbl_TA" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="TAModel.FK_tbl_TA_tbl_dosen_penguji1" ManuallyRouted="false" />
+        <AssociationConnector Association="TAModel.FK_tbl_TA_tbl_dosen_penguji2" ManuallyRouted="false" />
+        <AssociationConnector Association="TAModel.FK_tbl_jadwal_tbl_jadwal" ManuallyRouted="false" />
+        <AssociationConnector Association="TAModel.FK_tbl_TA_tbl_TA_NPM" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
